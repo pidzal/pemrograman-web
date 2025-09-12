@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo Layout CSS</title>
+  <link rel="stylesheet" href="latihan-6.css">
+</head>
+<body>
+
+  <h1>Demo Layout & Positioning CSS</h1>
+
+  <!-- DISPLAY -->
+  <div class="section">
+    <h2>Display</h2>
+    <span class="display-block">Block</span>
+    <span class="display-inline">Inline</span>
+    <span class="display-inline-block">Inline-block</span>
+    <span class="display-none">None</span> (ini tidak terlihat)
+  </div>
+
+  <!-- POSITION -->
+  <div class="section">
+    <h2>Position</h2>
+    <div class="position-container">
+      <div class="position-static">Static</div>
+      <div class="position-relative">Relative</div>
+    </div>
+
+    <div class="relative-parent position-container">
+      <div class="position-absolute">Absolute</div>
+    </div>
+
+    <div class="position-fixed">Fixed (pojok kanan atas)</div>
+
+    <div class="sticky-container">
+      <div class="position-sticky">Sticky (ikut scroll)</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Scroll untuk lihat efek sticky.</p>
+      <p>Tambahkan konten panjang agar scrollbar muncul.</p>
+      <p>Scroll lagi...</p>
+      <p>Scroll terus...</p>
+    </div>
+  </div>
+
+  <!-- FLOAT -->
+  <div class="section">
+    <h2>Float</h2>
+    <div class="float-container">
+      <div class="float-left">Float Left</div>
+      <div class="float-right">Float Right</div>
+      <p>
+        Teks ini akan mengelilingi elemen yang di-float. Float digunakan untuk mengatur posisi elemen ke kiri/kanan.
+      </p>
+      <div class="clear-float">Clear Float (reset float)</div>
+    </div>
+  </div>
+
+  <!-- Z-INDEX -->
+  <div class="section">
+    <h2>Z-Index</h2>
+    <div class="z-index-container">
+      <div class="z-index-1">z-index: 1</div>
+      <div class="z-index-2">z-index: 2</div>
+      <div class="z-index-3">z-index: 3</div>
+    </div>
+  </div>
+
+  <!-- OVERFLOW -->
+  <div class="section">
+    <h2>Overflow</h2>
+    <div class="overflow-container overflow-visible">
+      <div class="overflow-content">Visible</div>
+    </div>
+    <div class="overflow-container overflow-hidden">
+      <div class="overflow-content">Hidden</div>
+    </div>
+    <div class="overflow-container overflow-scroll">
+      <div class="overflow-content">Scroll</div>
+    </div>
+    <div class="overflow-container overflow-auto">
+      <div class="overflow-content">Auto</div>
+    </div>
+  </div>
+
+  <!-- FLEXBOX -->
+  <div class="section">
+    <h2>Flexbox</h2>
+    <div class="flex-container">
+      <div class="flex-item">1</div>
+      <div class="flex-item">2</div>
+      <div class="flex-item">3</div>
+    </div>
+
+    <div class="flex-container flex-column">
+      <div class="flex-item">Column 1</div>
+      <div class="flex-item">Column 2</div>
+      <div class="flex-item">Column 3</div>
+    </div>
+
+    <div class="flex-container justify-between">
+      <div class="flex-item">Left</div>
+      <div class="flex-item">Middle</div>
+      <div class="flex-item">Right</div>
+    </div>
+  </div>
+
+  <!-- LAYOUT -->
+  <div class="section">
+    <h2>Layout</h2>
+    <div class="two-column">
+      <div class="column-left">Kolom Kiri</div>
+      <div class="column-right">Kolom Kanan</div>
+    </div>
+
+    <div class="three-column">
+      <div class="column">Kolom 1</div>
+      <div class="column">Kolom 2</div>
+      <div class="column">Kolom 3</div>
+    </div>
+  </div>
+
+  <!-- PAGE LAYOUT -->
+  <div class="page-layout">
+    <div class="page-header">Header Website</div>
+    <div class="page-content">
+      <p>Ini area konten utama website. Layout sudah menggunakan header, content, dan footer.</p>
+    </div>
+    <div class="page-footer">© 2025 - Footer Website</div>
+  </div>
+
+</body>
+</html>

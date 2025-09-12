@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar CSS Selector</title>
+    <link rel="stylesheet" href="latihan-2.css">
+</head>
+<body>
+
+    <h1>Belajar CSS Selector</h1>
+
+    <!-- 2. CLASS SELECTOR -->
+    <p class="highlight">Ini adalah contoh highlight dengan class selector.</p>
+    <p class="warning">Ini adalah contoh warning dengan class selector.</p>
+
+    <!-- 3. ID SELECTOR -->
+    <p id="special">Ini adalah teks dengan ID selector.</p>
+
+    <!-- 4. DESCENDANT SELECTOR -->
+    <div class="container">
+        <h2>Judul di dalam Container</h2>
+        <p>Paragraf pertama di dalam container.</p>
+        <div class="inner">
+            <p>Paragraf di dalam .inner (lebih ke dalam).</p>
+        </div>
+    </div>
+
+    <!-- 5. CHILD SELECTOR -->
+    <ul class="menu">
+        <li>Menu Utama 1</li>
+        <li>Menu Utama 2
+            <ul>
+                <li>Submenu 2.1</li>
+                <li>Submenu 2.2</li>
+            </ul>
+        </li>
+        <li>Menu Utama 3</li>
+    </ul>
+
+    <!-- 6. PSEUDO-CLASS SELECTOR -->
+    <div class="links">
+        <a href="https://google.com" target="_blank">Google</a>
+        <a href="https://youtube.com" target="_blank">YouTube</a>
+        <a href="#local">Link Lokal</a>
+    </div>
+    <button type="button">Klik Saya</button>
+
+    <!-- 7. ATTRIBUTE SELECTOR -->
+    <form>
+        <input type="text" placeholder="Nama">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+    </form>
+
+    <!-- 8. GROUPING SELECTOR -->
+    <h4>Sub Judul H4</h4>
+    <h5>Sub Judul H5</h5>
+    <h6>Sub Judul H6</h6>
+
+    <!-- 9. UNIVERSAL SELECTOR -->
+    <div class="border">
+        <p>Box ini menggunakan universal selector (*).</p>
+    </div>
+
+</body>
+</html>
