@@ -30,9 +30,6 @@ Tujuannya untuk latihan memahami **CSS Framework**, utility classes, serta perbe
 ┣ index-tailwind.html <br>
 ┗ README.md <br>
 
-yaml
-Salin kode
-
 ---
 
 ## 🟦 Versi Bootstrap
@@ -56,33 +53,24 @@ small → ukuran teks lebih kecil.
 
 my-4 → margin atas & bawah 1.5rem.
 
-🌿 Versi Tailwind
+**🌿 Versi Tailwind**
 File: index-tailwind.html
 
-Cara pakai
-Pastikan folder asset/ berisi gambar yang digunakan.
+**Cara pakai**
+1. Pastikan folder asset/ berisi gambar yang digunakan.
+2. Buka file index-tailwind.html di browser.
+3. Framework Tailwind dimuat via CDN:
 
-Buka file index-tailwind.html di browser.
-
-Framework Tailwind dimuat via CDN:
-
-html
-Salin kode
 <script src="https://cdn.tailwindcss.com"></script>
-Contoh Class yang Dipakai
-flex, gap-6, ml-[50px] → layout dengan flexbox & custom spacing.
 
-w-[170px] h-[170px] → ukuran custom profile picture.
+**Contoh Class yang Dipakai**
+- flex, gap-6, ml-[50px] → layout dengan flexbox & custom spacing.
+- w-[170px] h-[170px] → ukuran custom profile picture.
+- hover:bg-gray-700 → tombol berubah warna saat hover.
+- active:opacity-40 → gambar feed menggelap saat ditekan.
+- border-gray-600, bg-black text-white → dark theme.
 
-hover:bg-gray-700 → tombol berubah warna saat hover.
-
-active:opacity-40 → gambar feed menggelap saat ditekan.
-
-border-gray-600, bg-black text-white → dark theme.
-
-📖 Perbedaan Utama
-Bootstrap → punya utilitas siap pakai (gap-0 s/d gap-5, my-4, small), tapi skalanya terbatas.
-
-Tailwind → sangat fleksibel, bisa pakai nilai custom (ml-[50px], w-[170px]), tapi verbose.
-
-Keduanya mendukung hover & active state, hanya beda penulisan (:hover di CSS Bootstrap vs hover: di Tailwind).
+**📖 Perbedaan Utama**
+- Bootstrap → punya utilitas siap pakai (gap-0 s/d gap-5, my-4, small), tapi skalanya terbatas.
+- Tailwind → sangat fleksibel, bisa pakai nilai custom (ml-[50px], w-[170px]), tapi verbose.
+- Keduanya mendukung hover & active state, hanya beda penulisan (:hover di CSS Bootstrap vs hover: di Tailwind).
