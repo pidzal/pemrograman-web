@@ -42,16 +42,12 @@ File: **index-bootstrap.html**
    ```html
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-Contoh Class yang Dipakai
-d-flex, gap-3, me-4 → layout dengan flexbox & spacing.
-
-cursor-pointer → kursor jadi tangan ketika diarahkan.
-
-active:opacity-40 (CSS custom) → gambar feed menggelap saat ditekan.
-
-small → ukuran teks lebih kecil.
-
-my-4 → margin atas & bawah 1.5rem.
+**Contoh Class yang Dipakai**
+- d-flex, gap-3, me-4 → layout dengan flexbox & spacing.
+- cursor-pointer → kursor jadi tangan ketika diarahkan.
+- active:opacity-40 (CSS custom) → gambar feed menggelap saat ditekan.
+- small → ukuran teks lebih kecil.
+- my-4 → margin atas & bawah 1.5rem.
 
 **🌿 Versi Tailwind**
 File: index-tailwind.html
