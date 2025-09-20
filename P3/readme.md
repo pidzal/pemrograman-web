@@ -19,16 +19,16 @@ Tujuannya untuk latihan memahami **CSS Framework**, utility classes, serta perbe
 ---
 
 ## 📂 Struktur Proyek
-📦 project-folder
-┣ 📂 asset
-┃ ┣ foto-profil.jpg
-┃ ┣ highlight-1.jpg
-┃ ┣ highlight-2.jpg
-┃ ┣ post-1.jpg ... post-12.jpg
-┃ ┗ favicon-16x16.png
-┣ index-bootstrap.html
-┣ index-tailwind.html
-┗ README.md
+📦 project-folder <br>
+┣ 📂 asset <br>
+┃ ┣ foto-profil.jpg <br>
+┃ ┣ highlight-1.jpg <br>
+┃ ┣ highlight-2.jpg <br>
+┃ ┣ post-1.jpg ... post-12.jpg <br>
+┃ ┗ favicon-16x16.png <br>
+┣ index-bootstrap.html <br>
+┣ index-tailwind.html <br>
+┗ README.md <br>
 
 yaml
 Salin kode
