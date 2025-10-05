@@ -11,8 +11,14 @@
         <h1>Weather Dashboard</h1>
         <p>Masukkan nama kota untuk melihat cuaca</p>
         <div class="form-grup">
-            <input type="text" id="cityInput" placeholder="Masukkan nama kota...">
-            <button id="btn">Tampilkan cuaca</button>
+            <input list="cities" id="cityInput" placeholder="Masukkan nama kota...">
+                <datalist id="cities">
+                    <option value="Jakarta">
+                    <option value="Bandung">
+                    <option value="Surabaya">
+                    <option value="Samarinda">
+                </datalist>
+            <button id="btn">Tampilkan Cuaca</button>
         </div>
     </div>
 
